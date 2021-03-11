@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="pane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1024.0" style="-fx-background-color: #2A363F#2A363F;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.scenes.endgame.EndgameController">
+   <children>
+      <VBox fx:id="buttonsPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="120.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handleRestartClick" stylesheets="@/resources/Button.css" text="Restart" />
+            <Button mnemonicParsing="false" onAction="#handleQuitClick" prefHeight="44.0" prefWidth="104.0" stylesheets="@/resources/Button.css" text="Quit" />
+         </children>
+      </VBox>
+   </children>
+</VBox>

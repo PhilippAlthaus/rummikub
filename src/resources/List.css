@@ -1,0 +1,20 @@
+
+.list-cell:even {
+    -fx-background-color: #616161;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font: 18pt "Bold";
+}
+.list-cell:odd {
+    -fx-background-color: #616161;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font: 18pt "Bold";
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #616161;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font: 18pt "Bold";
+}

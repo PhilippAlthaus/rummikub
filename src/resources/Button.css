@@ -1,0 +1,16 @@
+.button {
+  -fx-background-color: linear-gradient(red, lightpink);
+  -fx-background-radius: 30;
+  -fx-background-insets: 0;
+  -fx-text-fill: white;
+  -fx-font-size: 22px;
+}
+
+.button:hover {
+  -fx-background-color:  linear-gradient(lightpink, pink);
+}
+
+.button:pressed {
+  -fx-padding: 10 15 13 15;
+  -fx-background-insets: 2 0 0 0, 2 0 3 0, 2 0 4 0, 2 0 5 0;
+}

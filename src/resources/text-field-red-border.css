@@ -1,0 +1,15 @@
+.text-field.error {
+	-fx-background-color:  #2A363F;
+	-fx-border-color:  red;
+	-fx-text-inner-color:  white;
+	-fx-text-box-border: red;
+	-fx-focus-color: red;
+	-fx-border-width: 3 3 3 3;
+}
+
+.text-field.noerror {
+	-fx-background-color:  #2A363F;
+	-fx-border-color:  #465058;
+	-fx-text-inner-color:  white;
+}
+
